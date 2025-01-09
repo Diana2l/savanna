@@ -45,5 +45,5 @@ class MqttService
     {
         $ip_address = gethostbyname(gethostname());
         return $_ip_address;
-    }
+}
 }

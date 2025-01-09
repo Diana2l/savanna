@@ -23,5 +23,5 @@ class MqttController extends Controller
         $this->mqttService->disconnect();
 
         return response()->json(['ip_address' => $ip_address]);
-    }
+}
 }
